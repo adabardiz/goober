@@ -265,20 +265,21 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w3sjk"]
-size = Vector2(384.5, 344)
+size = Vector2(314.8125, 274.75)
 
 [node name="Node2D" type="Node2D" unique_id=1231224173]
 script = ExtResource("1_0e48y")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=556013356]
-position = Vector2(9.999985, -44)
-scale = Vector2(10.25, 9.895832)
+position = Vector2(104, 121)
+scale = Vector2(7.2499995, 7.515624)
 sprite_frames = SubResource("SpriteFrames_xaaun")
-animation = &"Sleep"
-frame_progress = 0.76797885
+animation = &"Walk"
+frame = 4
+frame_progress = 0.9101711
 
 [node name="Area2D" type="Area2D" parent="." unique_id=633958106]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=397462425]
-position = Vector2(9.75, -63)
+position = Vector2(100, 120)
 shape = SubResource("RectangleShape2D_w3sjk")
